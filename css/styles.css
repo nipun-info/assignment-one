@@ -34,6 +34,14 @@ section {
     margin-bottom: 8px;
 }
 
+.primary-text {
+    color: #070211;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Inter;
+    margin-bottom: 20px;
+}
+
 .btn-primary {
     background-color: #f00;
     color: #fff;
@@ -188,10 +196,57 @@ section {
 
 /* Holidays offer */
 
-.holidays-offer-info {
+.holidays-discount-info {
     max-width: 580px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 80px;
+}
+
+.discount-images {
+    background: url('../images/Rectangle\ 2.png') no-repeat;
+    background-position: bottom left;
+    height: 550px;
+    max-width: 82.5%;
+    position: relative;
+}
+
+.girls-pics {
+    width: 320px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.girls-pics img {
+    width: 100%;
+}
+
+.gift-box-image {
+    width: 480px;
+    height: auto;
+    position: absolute;
+    bottom: 85px;
+    left: 15px;
+}
+
+.gift-box-image img {
+    width: 100%;
+}
+
+.discount-50 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 230px;
+    top: 60px;
+    z-index: 1;
+}
+
+.discount-50 img {
+    width: 100%;
 }
 
 /* portfolio section */
@@ -203,7 +258,7 @@ section {
 
 .product-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 24px;
     margin-bottom: 24px;
 
@@ -222,4 +277,54 @@ section {
 
 .product-container .product-img:hover img {
     transform: scale(1.1);
+}
+
+
+/* newsletter section */
+.newsletter {
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter-content .email-icon {
+    margin-bottom: 38px;
+}
+
+.newsletter form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.newsletter .contact input,
+.newsletter .contact button {
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.newsletter .contact input {
+    flex-grow: 1;
+    padding-left: 12px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.newsletter .contact button {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #f00;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 14px;
+    cursor: pointer;
 }
