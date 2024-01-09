@@ -328,3 +328,62 @@ section {
     padding: 0 14px;
     cursor: pointer;
 }
+
+/* footer section */
+footer {
+    background-color: #070211;
+    color: #FFF;
+    padding: 80px 0;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-top p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-top-right p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 40px;
+}
+
+.footer-social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 40px 0;
+}
+
+.footer-social-icon .social-icon {
+    width: 54px;
+    height: 54px;
+}
+
+.footer-social-icon .social-icon img {
+    width: 100%;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer-bottom p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hr-line {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
