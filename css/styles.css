@@ -8,9 +8,10 @@
     /* font-family: 'Merriweather', serif; */
 }
 
+/* common css style */
 .container {
-    width: 82.5%;
     max-width: 1320;
+    width: 82.5%;
     margin: 0 auto;
 }
 
@@ -52,12 +53,13 @@ section {
     cursor: pointer;
 }
 
+/* header section */
 .banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center;
-    height: 50vh;
-    padding: 150px 0;
+    padding: 180px 0;
     text-align: center;
 }
 
@@ -77,7 +79,6 @@ section {
 
 /* categoris section */
 .categories {
-    padding: 80px 0;
     text-align: center;
 }
 
@@ -156,7 +157,6 @@ section {
     margin-top: 25px;
 }
 
-
 /* best offer section */
 
 .best-offer-content {
@@ -191,6 +191,7 @@ section {
 }
 
 .best-offer-content .column-right p {
+    max-width: 300px;
     margin-bottom: 12px;
 }
 
@@ -206,8 +207,9 @@ section {
 .discount-images {
     background: url('../images/Rectangle\ 2.png') no-repeat;
     background-position: bottom left;
+    background-size: 100% 40%;
     height: 550px;
-    max-width: 82.5%;
+    max-width: 100%;
     position: relative;
 }
 
@@ -215,7 +217,7 @@ section {
     width: 320px;
     height: auto;
     position: absolute;
-    top: 0;
+    top: 8px;
     right: 0;
     z-index: -1;
 }
@@ -225,7 +227,7 @@ section {
 }
 
 .gift-box-image {
-    width: 480px;
+    width: 550px;
     height: auto;
     position: absolute;
     bottom: 85px;
